@@ -1,0 +1,19 @@
+2024-05-04T15:58:14.471087451+08:00 INFO intergration_test::node::node2::node2 - node2 is listening on 127.0.0.1:50002
+2024-05-04T15:58:14.471214017+08:00 INFO intergration_test::node::node2::node2 - regular is listening on 127.0.0.1:50000
+2024-05-04T15:58:14.471228033+08:00 INFO node::cdl4osl_vss_scheme::setup_phase - Setup phase is starting!
+2024-05-04T15:58:22.632281331+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Regulator  Get RegulatorSetupPhaseBroadcastMsg
+2024-05-04T15:58:22.635345469+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Regulator  Get RegulatorSetupPhaseFinishFlag
+2024-05-04T15:58:22.635383661+08:00 INFO node::cdl4osl_vss_scheme::setup_phase - Setup phase is finished!
+2024-05-04T15:58:22.668720403+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Regulator  Get RegulatorKeyGenPhaseStartFlag
+2024-05-04T15:58:22.679335100+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Regulator  Get RegulatorKeyGenPhaseOneBroadcastMsg
+2024-05-04T15:58:22.679407596+08:00 INFO intergration_test::node::node2::node2 - Keygen phase is staring!
+2024-05-04T15:58:22.679432302+08:00 INFO node::cdl4osl_vss_scheme::keygen_phase - Key is generating!
+2024-05-04T15:58:22.849315005+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-05-04T15:58:22.870509825+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-05-04T15:58:22.887981298+08:00 INFO intergration_test::node::node2::node2 - From id : 1 ,Role : Group Manager Node Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-05-04T15:58:23.009381054+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Regulator  Get NodeToNodeKeyGenPhaseTwoP2PMsg
+2024-05-04T15:58:23.009774309+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Regulator  Get NodeToNodeKeyGenPhaseTwoP2PMsg
+2024-05-04T15:58:23.009992517+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Regulator  Get NodeToNodeKeyGenPhaseTwoP2PMsg
+2024-05-04T15:58:23.011430817+08:00 INFO node::cdl4osl_vss_scheme::keygen_phase - Current mi is Secp256k1Scalar { purpose: "from_bigint", fe: Zeroizing(Some(SK(SecretKey(71e5211dd4c12b0bbe09b5967e4f0b0981683232308f5919710d48ab18781b79)))) }
+2024-05-04T15:58:23.011469469+08:00 INFO intergration_test::node::node2::node2 - Keygen phase is finished!
+2024-05-04T15:58:23.011652020+08:00 INFO intergration_test::node::node2::node2 - NodeToRegulatorKeyGenPhaseFourP2PMsg has sent

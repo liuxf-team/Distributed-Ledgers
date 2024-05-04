@@ -1,0 +1,9 @@
+2024-05-04T16:00:17.738508763+08:00 INFO intergration_test::regulator::regulator - Reg_node is listening on 0.0.0.0:50000
+2024-05-04T16:00:27.308094970+08:00 INFO intergration_test::regulator::regulator - From Role : Group Manager Node, Get NodeToRegSetupPhaseP2PMsg
+2024-05-04T16:00:27.308397106+08:00 WARN intergration_test::regulator::regulator - Insufficient number of messages, and current number is Mutex { data: 1 }
+2024-05-04T16:00:32.767267312+08:00 INFO intergration_test::regulator::regulator - From Role : Group Manager Node, Get NodeToRegSetupPhaseP2PMsg
+2024-05-04T16:00:32.767344667+08:00 WARN intergration_test::regulator::regulator - Insufficient number of messages, and current number is Mutex { data: 2 }
+2024-05-04T16:00:40.133529264+08:00 INFO intergration_test::regulator::regulator - From Role : Group Manager Node, Get NodeToRegSetupPhaseP2PMsg
+2024-05-04T16:00:40.133604414+08:00 WARN intergration_test::regulator::regulator - Insufficient number of messages, and current number is Mutex { data: 3 }
+2024-05-04T16:00:45.850371618+08:00 INFO intergration_test::regulator::regulator - From Role : Group Manager Node, Get NodeToRegSetupPhaseP2PMsg
+2024-05-04T16:00:46.850949318+08:00 INFO regulator::scheme::setup_phase - Setup phase is staring!

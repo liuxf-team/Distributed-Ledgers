@@ -1,0 +1,7 @@
+2024-05-04T16:00:40.132907424+08:00 INFO intergration_test::node::node3::node3 - node3 is listening on 127.0.0.1:50003
+2024-05-04T16:00:40.133021728+08:00 INFO node::scheme::setup_phase - Setup phase is starting!
+2024-05-04T16:00:46.888018459+08:00 INFO intergration_test::node::node3::node3 - From id : 0 ,Role : Reg  Get RegSetupPhaseBroadcastMsg
+2024-05-04T16:00:46.890459476+08:00 INFO node::scheme::keygen_phase - Key is generating!
+2024-05-04T16:00:46.976731564+08:00 INFO node::scheme::keygen_phase - PK = Secp256k1Point { purpose: "add", ge: Some(PK(PublicKey(c0b2925f937e4163b46c89124d8ebc87da411d3ab5276d6f84d844e16269bdfbc8f8ccb5617f150aa507f5343c40b27d0d4321dc6ae8264b79ba0d3200911972))) }
+2024-05-04T16:00:46.976867197+08:00 INFO node::scheme::keygen_phase - Xi = Secp256k1Scalar { purpose: "add", fe: Zeroizing(Some(SK(SecretKey(d0128a3768018898a87538cc8277b2fc387aad548743b2ed7872a539c9b64a17)))) }
+2024-05-04T16:00:46.976997401+08:00 INFO node::scheme::keygen_phase - PK_share = Secp256k1Point { purpose: "generator_mul", ge: Some(PK(PublicKey(d3b0123f3bddae3e8d87b799d5cea7f580a1c996ce70fa2803ebc2339fa605d9708eb850c3c615b3c27f4092ae22b4d10af4da9bc3b8b35f49b501d5d148df65))) }

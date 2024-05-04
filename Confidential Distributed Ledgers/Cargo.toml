@@ -1,0 +1,30 @@
+[workspace]
+members = [
+    "message",
+    "node",
+    "regulator",
+    "intergration_test",
+    "elgamal",
+    "bulletproof"
+]
+resolver = "2"
+
+[workspace.dependencies]
+elgamal = { path = "./elgamal" }
+message = { path = "./message" }
+bulletproof = {path = "./bulletproof"}
+node = { path = "./node" }
+regulator = { path = "./regulator" }
+intergration_test = { path = "./intergration_test" }
+test ={ path = "./test" }
+curv = { package = "curv-kzen", git="https://github.com/ZenGo-X/curv.git", rev="44537a74"}
+sha2 = "0.9"
+num-bigint = "0.3"
+thiserror = "1.0.23"
+time = "0.1"
+num = "0.2"
+chrono = "0.4"
+crossbeam-channel = "0.5.1"
+bincode = "1.3.1"
+anyhow = "1.0"
+tokio = { version = "1.32.0", features = ["full"] }

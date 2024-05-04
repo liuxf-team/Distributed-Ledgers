@@ -1,0 +1,25 @@
+2024-05-04T15:58:03.913986643+08:00 INFO intergration_test::regulator::regulator_node - Regulator_node is listening on 0.0.0.0:50000
+2024-05-04T15:58:10.730932427+08:00 INFO intergration_test::regulator::regulator_node - From Role : Group Manager Node, Get NodeToRegulatorSetupPhaseP2PMsg
+2024-05-04T15:58:10.731054986+08:00 WARN intergration_test::regulator::regulator_node - Insufficient number of messages, and current number is Mutex { data: 1 }
+2024-05-04T15:58:14.479747728+08:00 INFO intergration_test::regulator::regulator_node - From Role : Group Manager Node, Get NodeToRegulatorSetupPhaseP2PMsg
+2024-05-04T15:58:14.479962379+08:00 WARN intergration_test::regulator::regulator_node - Insufficient number of messages, and current number is Mutex { data: 2 }
+2024-05-04T15:58:17.998946706+08:00 INFO intergration_test::regulator::regulator_node - From Role : Group Manager Node, Get NodeToRegulatorSetupPhaseP2PMsg
+2024-05-04T15:58:17.999009783+08:00 WARN intergration_test::regulator::regulator_node - Insufficient number of messages, and current number is Mutex { data: 3 }
+2024-05-04T15:58:21.629328639+08:00 INFO intergration_test::regulator::regulator_node - From Role : Group Manager Node, Get NodeToRegulatorSetupPhaseP2PMsg
+2024-05-04T15:58:22.629720683+08:00 INFO regulator::cdl4osl_vss_scheme::setup_phase - Setup phase is staring!
+2024-05-04T15:58:22.632744136+08:00 INFO intergration_test::regulator::regulator_node - From id : 1, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-05-04T15:58:22.632809518+08:00 WARN intergration_test::regulator::regulator_node - Insufficient number of messages, and current number is Mutex { data: 1 }
+2024-05-04T15:58:22.632881693+08:00 INFO intergration_test::regulator::regulator_node - From id : 3, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-05-04T15:58:22.632902762+08:00 WARN intergration_test::regulator::regulator_node - Insufficient number of messages, and current number is Mutex { data: 2 }
+2024-05-04T15:58:22.632962634+08:00 INFO intergration_test::regulator::regulator_node - From id : 4, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-05-04T15:58:22.632983103+08:00 WARN intergration_test::regulator::regulator_node - Insufficient number of messages, and current number is Mutex { data: 3 }
+2024-05-04T15:58:22.633041251+08:00 INFO intergration_test::regulator::regulator_node - From id : 2, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-05-04T15:58:22.633084302+08:00 INFO regulator::cdl4osl_vss_scheme::setup_phase - Setup phase is finished!
+2024-05-04T15:58:22.633491934+08:00 INFO regulator::cdl4osl_vss_scheme::keygen_phase - Keygen phase is staring!
+2024-05-04T15:58:23.013077099+08:00 INFO intergration_test::regulator::regulator_node - From id : 4, Role : Group Manager Node, Get NodeToRegulatorKeyGenPhaseFourP2PMsg
+2024-05-04T15:58:23.013311027+08:00 INFO intergration_test::regulator::regulator_node - From id : 2, Role : Group Manager Node, Get NodeToRegulatorKeyGenPhaseFourP2PMsg
+2024-05-04T15:58:23.015513635+08:00 INFO intergration_test::regulator::regulator_node - From id : 3, Role : Group Manager Node, Get NodeToRegulatorKeyGenPhaseFourP2PMsg
+2024-05-04T15:58:23.016171676+08:00 INFO intergration_test::regulator::regulator_node - From id : 1, Role : Group Manager Node, Get NodeToRegulatorKeyGenPhaseFourP2PMsg
+2024-05-04T15:58:23.016419710+08:00 INFO regulator::cdl4osl_vss_scheme::keygen_phase - Secp256k1Scalar { purpose: "add", fe: Zeroizing(Some(SK(SecretKey(00000000000000000000000000000000000000000000000000000000eb8d39e0)))) }
+2024-05-04T15:58:23.016443604+08:00 INFO regulator::cdl4osl_vss_scheme::keygen_phase - Secp256k1Scalar { purpose: "add", fe: Zeroizing(Some(SK(SecretKey(00000000000000000000000000000000000000000000000000000000eb8d39e0)))) }
+2024-05-04T15:58:23.016466547+08:00 INFO regulator::cdl4osl_vss_scheme::keygen_phase - Key Reconstructs successfully!

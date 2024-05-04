@@ -1,0 +1,9 @@
+{
+  "reg_addr":"127.0.0.1:50000",
+  "node_addr":"127.0.0.1:50004",
+  "listen_addr":"0.0.0.0:50004",
+  "threshold_params":{
+      "threshold":2,
+      "share_counts":4
+  }
+}
